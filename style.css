@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: "Overpass", sans-serif;
+    background: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container,
+.secondcard {
+    width: 380px;
+    height: 350px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 10px;
+}
+.secondcard {
+    text-align: center;
+   
+}
+.secondcard h1 {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    margin-top: 20px;
+   
+}
+.secondcard p {
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    margin-top: 20px;
+   
+}
+.hidden {
+    display: none;
+}
+
+.container img{
+    margin-top: 2rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 0.8em;
+    background-color: hsl(214, 18%, 25%);
+    border-radius: 50%;
+}
+
+.container h1{
+    color: hsl(217, 12%, 63%);
+    margin-left: 20px;
+}
+
+.container p{
+    color: hsl(217, 12%, 63%);
+    margin-left: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 1px;
+    display: flex;
+    justify-content:space-around;
+}
+
+ul li button {
+    color: hsl(207, 24%, 63%);
+    background-color: hsl(215, 14%, 30%);
+    border: none;
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 50%;
+    margin-top: 1.5em; 
+    margin-bottom: 1.5em; 
+}
+ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    font-weight: 700;
+}
+ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: #fff;
+    font-weight: 700;
+}
+
+.submit {
+    display: block;
+    margin: auto;
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    letter-spacing: 2px;
+    padding: 0.8rem 0 0.7rem;
+    margin-bottom: 0.5em;
+    min-height: 2rem;
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+.submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    font-weight: 700;
+}
+.submit:focus {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+#thanks {
+    display: block;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 150px;
+
+}
+#specialp {
+    width: 200px;
+    font-size: 15px;
+    margin: auto;
+    background-color: hsl(214, 14%, 22%);
+    color: hsl(25, 97%, 53%);
+    padding: 0.2rem 1rem 0.3rem 0.7rem;
+    border-radius: 30px;
+    
+}
